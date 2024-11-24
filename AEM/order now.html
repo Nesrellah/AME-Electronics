@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hotel Booking</title>
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+<link href="order now.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">  
+ <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class=site-name>
+                    <img src=images/logo.JPG class=logo>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+           
+        
+        
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "home.html">home</a></li>
+                <li><a href = "Mobile.html">mobile</a></li>
+				<li><a href = "Labtop.html">Labtop</a></li>
+                <li><a href = "drones.html">drones</a></li>
+                <li><a href = "Security.html">Security</a></li>
+            </ul>
+           <a href=ORDER.html><button class = "btn sign-up">ORDER NOW</button></a>
+			
+        </div>
+<h1> AEM electronics order your choice</h1>
+    <div class="bg-agile">
+	<div class="book-appointment">
+	<h2>order now</h2>
+						<div class="book-form agileits-login">
+							<form action="#" method="post">
+								<div class="agileits_reservation_grid">
+								<div class="phone_email">
+									<div class="form-text">
+										<i class="fa fa-user" ></i>
+										<input type="text" name="Name" placeholder="First name" required="" autocomplete="off">
+									</div> 
+								</div>
+								<div class="phone_email phone_email1">
+									<div class="form-text">
+										<i class="fa fa-user" ></i>
+										<input type="text" name="Name" placeholder="Last name" required="" autocomplete="off">
+									</div>
+								</div>
+								
+								<div class="phone_email">
+									<div class="form-text">
+										<i class="fa fa-phone" ></i>
+										<input type="text" name="Phone no" placeholder="Phone number" required="" autocomplete="off">
+									</div> 
+								</div> 
+								<div class="phone_email phone_email1">
+									<div class="form-text">
+										<i class="fa fa-envelope-o" ></i>
+										<input type="email" name="email" placeholder="Email" required="" autocomplete="off">
+									</div>
+								</div>
+									<div class="span1_of_1 phone_email1">
+										
+										<div class="section_room">
+											<i class="fa fa-sort-amount-asc" aria-hidden="true"></i>
+                                            <select id="country1" onchange="change_country(this.value)" class="frm-field required">
+                                                <option value="">Amount</option>
+												<option value="">1</option>
+												<option value="">2 </option>         
+												<option value="">3</option>
+												<option value="">4 </option>
+												<option value="">5 </option>
+												<option value="">6 </option>
+							
+											</select>
+										</div>	
+									</div>
+										<div class="span1_of_1">
+										<div class="section_room">
+											<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+											<select id="country" onchange="change_country(this.value)" class="frm-field required">
+												<option value="">Choose the product</option>
+												<option value="">Mobile</option>
+												<option value="">Laptop </option>         
+												<option value="">Drones</option>
+											</select>
+										</div>	
+									</div>
+								</div> 
+								<input type="submit" value="order">
+								<input type="reset" value="Reset">
+								<div class="clear"></div>
+
+							</form>
+						</div>
+
+		</div>
+   </div>
+        </header>
+		
+				
+				  <script>
+						  $(function() {
+							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+						  });
+				  </script>
+	<script src="script.js"></script>
+</body>
+</html>
